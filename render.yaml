@@ -1,0 +1,13 @@
+services:
+- type: web
+  name: campus-guide
+  env: python
+  plan: free
+  buildCommand: pip install --upgrade pip && pip install -r requirements.txt
+  startCommand: streamlit run app.py --server.port $PORT --server.address 0.0.0.0
+  envVars:
+  - key: PYTHON_VERSION
+    value: 3.10.13
+  - key: STREAMLIT_BROWSER_GATHER_USAGE_STATS
+    value: "false"
+  healthCheckPath: /

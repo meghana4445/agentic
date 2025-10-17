@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <style>
+      .zone { fill-opacity: 0.12; }
+      .label { font: 18px sans-serif; fill: #333; }
+      .bldg { fill: #4e79a7; stroke: #2f4b6c; stroke-width: 2; fill-opacity: 0.85; }
+      .road { stroke: #999; stroke-width: 4; fill: none; stroke-dasharray: 8 8; }
+    </style>
+  </defs>
+  <!-- Zones -->
+  <rect class="zone" x="40" y="60" width="350" height="650" fill="#ff7f0e" />
+  <text class="label" x="50" y="90">West Zone</text>
+
+  <rect class="zone" x="400" y="60" width="350" height="350" fill="#2ca02c" />
+  <text class="label" x="410" y="90">North Zone</text>
+
+  <rect class="zone" x="760" y="60" width="400" height="650" fill="#1f77b4" />
+  <text class="label" x="770" y="90">East/South Zone</text>
+
+  <!-- Roads -->
+  <path class="road" d="M 40 200 L 1160 200" />
+  <path class="road" d="M 400 60 L 400 710" />
+
+  <!-- Buildings (approximate locations matching datasets) -->
+  <rect class="bldg" x="460" y="260" width="90" height="50" />
+  <text class="label" x="465" y="295">LIB</text>
+
+  <rect class="bldg" x="820" y="300" width="120" height="60" />
+  <text class="label" x="825" y="338">SCI</text>
+
+  <rect class="bldg" x="500" y="180" width="120" height="50" />
+  <text class="label" x="505" y="215">ADM</text>
+
+  <rect class="bldg" x="920" y="360" width="150" height="70" />
+  <text class="label" x="925" y="400">ENG</text>
+
+  <rect class="bldg" x="120" y="560" width="130" height="70" />
+  <text class="label" x="125" y="600">GYM</text>
+
+  <rect class="bldg" x="520" y="240" width="100" height="40" />
+  <text class="label" x="525" y="270">CAF</text>
+
+  <rect class="bldg" x="560" y="340" width="110" height="55" />
+  <text class="label" x="565" y="375">ART</text>
+
+  <rect class="bldg" x="1000" y="520" width="140" height="65" />
+  <text class="label" x="1005" y="560">MED</text>
+
+  <rect class="bldg" x="780" y="240" width="140" height="60" />
+  <text class="label" x="785" y="278">BUS</text>
+
+  <rect class="bldg" x="150" y="420" width="140" height="60" />
+  <text class="label" x="155" y="458">RES</text>
+
+  <text class="label" x="40" y="30">Campus Map (placeholder SVG). Replace this file with your own map image anytime.</text>
+</svg>
+
+
+

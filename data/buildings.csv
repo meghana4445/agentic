@@ -1,0 +1,11 @@
+code,name,x,y,zone,description
+LIB,Main Library,10,30,North,"Central library with study spaces and archives"
+SCI,Science Hall,25,40,East,"STEM classrooms and labs"
+ADM,Administration,15,20,North,"Registrar and admissions offices"
+ENG,Engineering Complex,35,45,East,"Engineering departments and makerspace"
+GYM,Recreation Center,5,10,West,"Gym, pool, and fitness classes"
+CAF,Campus Cafe,12,25,North,"Food court and coffee shop"
+ART,Arts Center,18,35,North,"Theatre and galleries"
+MED,Medical Center,45,50,South,"Health services and clinic"
+BUS,Business School,28,22,East,"Commerce and MBA programs"
+RES,Residence Hall A,8,15,West,"Dormitory housing"
