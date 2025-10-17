@@ -7,7 +7,8 @@ services:
   startCommand: streamlit run app.py --server.port $PORT --server.address 0.0.0.0
   envVars:
   - key: PYTHON_VERSION
-    value: 3.10.13
+    value: 3.11.9
   - key: STREAMLIT_BROWSER_GATHER_USAGE_STATS
     value: "false"
   healthCheckPath: /
+
